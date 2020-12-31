@@ -1,14 +1,31 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Animated } from 'react-native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
+import { createAppContainer } from 'react-navigation';
+import { NavigationContainer, TabActions } from '@react-navigation/native';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+import FacebookScreen from './routes/facebook';
+import InstagramScreen from './routes/instagram';
+
+const Tab = createBottomTabNavigator();
+
+export default class App extends React.Component {
+  render() {
+    return (
+      <NavigationContainer>
+        <Tab.Navigator
+        tabBarOptions={{
+          activeTintColor: 'purple',
+          inactiveTintColor: 'black',
+          activeBackgroundColor: '#e6e6e6',
+          allowFontScaling: true,
+        }}>
+          <Tab.Screen name='Facebook' component={ FacebookScreen } />
+          <Tab.Screen name='Instagram' component={ InstagramScreen } />
+        </Tab.Navigator>
+      </NavigationContainer>
+    );
+  }
 }
 
 const styles = StyleSheet.create({
