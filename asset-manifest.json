@@ -1,0 +1,22 @@
+{
+  "files": {
+    "app.js": "/buzz-app/static/js/app.cb9be400.chunk.js",
+    "app.js.map": "/buzz-app/static/js/app.cb9be400.chunk.js.map",
+    "runtime~app.js": "/buzz-app/static/js/runtime~app.6319b2a4.js",
+    "runtime~app.js.map": "/buzz-app/static/js/runtime~app.6319b2a4.js.map",
+    "static/js/2.15d75697.chunk.js": "/buzz-app/static/js/2.15d75697.chunk.js",
+    "static/js/2.15d75697.chunk.js.map": "/buzz-app/static/js/2.15d75697.chunk.js.map",
+    "favicon-16.png": "/buzz-app/favicon-16.png",
+    "favicon-32.png": "/buzz-app/favicon-32.png",
+    "favicon.ico": "/buzz-app/favicon.ico",
+    "index.html": "/buzz-app/index.html",
+    "manifest.json": "/buzz-app/manifest.json",
+    "serve.json": "/buzz-app/serve.json",
+    "static/js/2.15d75697.chunk.js.LICENSE.txt": "/buzz-app/static/js/2.15d75697.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.6319b2a4.js",
+    "static/js/2.15d75697.chunk.js",
+    "static/js/app.cb9be400.chunk.js"
+  ]
+}
